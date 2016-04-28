@@ -66,7 +66,7 @@ module PryClipboard
             n = history.lines.count if n > history.lines.count
             history.take_lines(-n, n)
           else
-            history.take_lines(-1, 1)
+            history.take_lines(-2, 1)
           end
         end
 
